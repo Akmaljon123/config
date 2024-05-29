@@ -208,7 +208,7 @@ class ContainerGrid extends StatelessWidget {
               children: [
                 Expanded(
                   flex: containerModel.flexPhoto ?? 5,
-                  child: Image.network(productModel[__].imageUrl!),
+                  child: Image.asset(productModel[__].imageUrl!),
                 ),
                 Expanded(
                   flex: containerModel.flexText ?? 5,
